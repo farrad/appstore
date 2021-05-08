@@ -3,6 +3,7 @@ from typing import Tuple
 
 from requests import post
 
+BASE_URL = 'http://127.0.0.1:8000/api/v1'
 REGISTER_URL = 'http://127.0.0.1:8000/api/v1/apps'
 RELEASE_URL = 'http://127.0.0.1:8000/api/v1/apps/releases'
 ADMIN = ('admin', 'admin')
